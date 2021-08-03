@@ -1,0 +1,16 @@
+{
+  "1001" : {
+    "revisionId" : "d6ee2d64cd154fc3b55092472ed94c3f96152a55",
+    "revisionAuthor" : "author",
+    "revisionEmail" : "voxgenwavoo",
+    "revisionMessage" : "\n",
+    "masterCommitId" : "1001",
+    "modifiedFiles" : {
+      "proxytest3.vui" : "1001",
+      ".resources/icon.gif" : "1001",
+      ".resources/project.properties" : "1001",
+      ".project" : "1001"
+    },
+    "reivisionCommitTime" : "2021-08-03T15:57:30Z"
+  }
+}
