@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?resourcesPath .resources/design1?>
+<?audioPath .resources/design1?>
+<Design version="3.6.0.RCx58" type="VOICE" locale="en-GB">
+	<Languages>
+		<Language>en-GB</Language>
+	</Languages>
+	<Variants />
+	<LanguagesFilter>
+		<Language>en-GB</Language>
+	</LanguagesFilter>
+	<VariantsFilter />
+	<States>
+		<State name="StartHere" type="AppInit" status="Draft">
+			<FunctionalSequences></FunctionalSequences>
+			<Notes></Notes>
+			<TechnicalNotes></TechnicalNotes>
+			<Parameters />
+			<Prompts />
+			<Grammars />
+			<Navigation>
+				<FromStates />
+				<Conditions>
+					<ResponseCondition Confidence="N/A">
+						<ConditionContentList>
+							<Text>Start the app</Text>
+						</ConditionContentList>
+						<TaskNotes></TaskNotes>
+						<TechnicalNotes></TechnicalNotes>
+						<Result></Result>
+						<Tests />
+					</ResponseCondition>
+				</Conditions>
+				<Tests />
+			</Navigation>
+		</State>
+		<State name="NewState1" type="Menu" status="Draft">
+			<FunctionalSequences></FunctionalSequences>
+			<Notes></Notes>
+			<TechnicalNotes></TechnicalNotes>
+			<Parameters />
+			<Prompts>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="INI" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="NM1" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="NM2" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="NI1" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="NI2" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+			</Prompts>
+			<Grammars />
+			<Navigation>
+				<FromStates />
+				<Conditions>
+					<ResponseCondition Confidence="N/A">
+						<ConditionContentList>
+							<Text>&lt;VALID INPUT&gt;</Text>
+						</ConditionContentList>
+						<TaskNotes></TaskNotes>
+						<TechnicalNotes></TechnicalNotes>
+						<Result></Result>
+						<Tests />
+					</ResponseCondition>
+					<ResponseCondition Confidence="N/A">
+						<ConditionContentList>
+							<Text>&lt;VALID INPUT&gt;</Text>
+						</ConditionContentList>
+						<TaskNotes></TaskNotes>
+						<TechnicalNotes></TechnicalNotes>
+						<Result></Result>
+						<Tests />
+					</ResponseCondition>
+					<ErrorCondition>
+						<ConditionContentList>
+							<Text>FAILURE</Text>
+						</ConditionContentList>
+						<TaskNotes></TaskNotes>
+						<TechnicalNotes></TechnicalNotes>
+						<Result></Result>
+						<Tests />
+					</ErrorCondition>
+				</Conditions>
+				<Tests />
+			</Navigation>
+		</State>
+	</States>
+	<DesignParameters />
+	<VersionNotes />
+</Design>
+
