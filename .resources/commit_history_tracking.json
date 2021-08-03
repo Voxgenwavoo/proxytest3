@@ -12,5 +12,17 @@
       ".project" : "1001"
     },
     "reivisionCommitTime" : "2021-08-03T15:57:30Z"
+  },
+  "1002" : {
+    "revisionId" : "dbee50cff47dd0f08980e230ac4363540238a6dd",
+    "revisionAuthor" : "author",
+    "revisionEmail" : "voxgenwavoo",
+    "revisionMessage" : "First commit of VUI Design Project 'proxytest3'.\n",
+    "masterCommitId" : "1002",
+    "modifiedFiles" : {
+      "proxytest3.vui" : "1002",
+      ".resources/git_project_url_settings.json" : "1002"
+    },
+    "reivisionCommitTime" : "2021-08-03T15:59:56Z"
   }
 }
